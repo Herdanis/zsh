@@ -1,0 +1,7 @@
+name: GitLeak
+
+on: push
+
+jobs:
+  scan:
+    uses: Herdanis/resuseable-workflow/.github/workflows/gitleak.yaml@main
